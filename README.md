@@ -6,4 +6,4 @@ Since Twig is a lineart iconset, we needed to make icons specifically for variou
 
 If you want to contribute some new icons, knock yourself out; just send us a black and white, SVG version of it and we'll consider adding it to the repo.
 
-MIT license and all.
+MIT license and all. Don't be a dick.
