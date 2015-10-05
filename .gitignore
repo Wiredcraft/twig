@@ -1,0 +1,8 @@
+.*
+!.gitignore
+!.gitmodules
+*~
+
+_site/
+node_modules/
+bower_components/
