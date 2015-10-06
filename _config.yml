@@ -1,0 +1,26 @@
+# Site settings
+title: "twig"
+email: "info@wiredcraft.com"
+description: "A simple lineart iconset by Wiredcraft"
+baseurl: ""
+url: "https://wiredcraft/twig"
+enforce_ssl: "wiredcraft/twig"
+keywords:
+- iconset
+- icons
+- design
+- lineart
+
+# Analytics & Social
+google_analytics: UA-368921-34
+twitter: wiredcraft
+
+# Build settings
+exclude: ['README.md', 'LICENSE.md', 'package.json', 'bower.json', 'Gemfile', 'node_modules', 'bower_components']
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+
+# Build id to force reload assets (CSS + JS)
+build: baton

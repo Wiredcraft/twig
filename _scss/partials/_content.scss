@@ -1,0 +1,57 @@
+#content {
+  .header {
+    text-align: center;
+  }
+  .hero {
+    @include background-image( linear-gradient(0deg, mix($blue, $purple) 0%, $purple 80%) );
+    color: #FFF;
+    padding: 2*$gutter 0;
+    .header {
+      margin-bottom: 2*$gutter;
+      h1 {
+        color: #FFF;
+        @include font-size($gigantic);
+        // font-weight: normal;
+      }
+      p {
+        color: tint($purple, 60%);
+        @include font-size($large);
+      }
+      .button {
+        border-radius: 2*$gutter;
+        @include font-size($large);
+        margin-top: 2*$gutter;
+        padding: $gutter 1.5*$gutter;
+      }
+    }
+    ul {
+      @include clearfix;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        border-radius: $radius;
+        @include box-sizing(border-box);
+        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        float: left;
+        padding: 2*$gutter;
+        width: 10%;
+        text-align: center;
+        @include tooltip;
+        @include transition-property(background, color);
+        @include transition-duration($ease);
+        &:hover {
+          background: rgba(#FFF, 0.08);
+          color: #FFF;
+        }
+      }
+    }
+  }
+    .twig-24 {
+    @include font-size(24);
+  }
+  .twig-16 {
+    @include font-size(16);
+  }
+}

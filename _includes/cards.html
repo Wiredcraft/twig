@@ -1,0 +1,21 @@
+{% capture cover %}{{ site.url }}/assets/cover.png{% endcapture %}
+{% if page.cover %}{% assign cover = page.cover %}{% endif %}
+
+{% assign excerpt = site.description %}
+{% if page.excerpt %}{% assign excerpt = page.excerpt | strip_html | escape %}{% endif %}
+
+<!-- Open graph -->
+<meta property='og:site_name' content='{{ site.title }}'/>
+<meta property='og:type' content='website'/>
+<meta property='og:title' content='{{ page.title }}'/>
+<meta property='og:url' content='{{ site.url }}{{ page.url }}'/>
+<meta property='og:description' content='{{ excerpt }}'/>
+<meta property='og:image' content='{{ cover }}'/>
+
+<!-- Twitter card -->
+<meta name='twitter:card' content='summary_large_image'/>
+<meta name='twitter:site' content='{{ site.twitter }}'/>
+<meta name='twitter:creator' content='{{ site.twitter }}'/>
+<meta name='twitter:title' content='{{ page.title }}'/>
+<meta name='twitter:description' content='{{ excerpt }}'/>
+<meta name='twitter:image' content='{{ cover }}'/>

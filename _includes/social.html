@@ -1,0 +1,4 @@
+<a class='facebook popup' target='_blank' href='https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | escape }}'><span>Share on facebook</span></a>
+{% capture tweet %}{{ page.title }} @{{ site.twitter }}{% endcapture %}
+<a class='twitter popup' target='_blank' href='https://twitter.com/intent/tweet?text={{ tweet }}&related={{ site.twitter }}&url={{ page.url | prepend: site.url | escape }}'><span>Share on Twitter</span></a>
+<a class='linkedin popup' target='_blank' href='https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | prepend: site.url | escape }}&title={{ page.title | escape }}&source={{ site.url | escape }}'><span>Share on LinkedIn</span></a>

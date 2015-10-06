@@ -1,0 +1,21 @@
+@mixin breakpoint($class) {
+  @if $class == mobile {
+    @media (max-width: $tablet - 1) { @content; }
+  }
+
+  @else if $class == tablet {
+    @media (min-width: $tablet) { @content; }
+  }
+
+  @else if $class == desktop {
+    @media (min-width: $desktop) { @content; }
+  }
+
+  @else if $class == highres {
+    @media (min-width: $highres) { @content; }
+  }
+
+  @else {
+    @warn "Breakpoint mixin supports: mobile, tablet, desktop, highres";
+  }
+}

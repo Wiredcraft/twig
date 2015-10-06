@@ -1,0 +1,14 @@
+.button {
+  @include button(tint($blue, 20%));
+  border: 0;
+  border-radius: $gutter;
+  font-family: $headline;
+  @include font-size($smaller);
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bundle .button {
+  @include bundle;
+}

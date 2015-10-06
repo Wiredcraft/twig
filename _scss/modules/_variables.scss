@@ -1,0 +1,42 @@
+/* Colors */
+
+$blue: #1F8DD6 !default;
+$green: #50CD84 !default;
+$yellow: #FFC65E !default;
+$orange: #FF8859 !default;
+$red: #FF5F5F !default;
+$purple: #8B66CB !default;
+$black: #333 !default;
+$line: #DDD !default;
+$grey: #CCC !default;
+$light: #EEE !default;
+
+/* Sizes */
+
+$pico: 10 !default;
+$micro: 11 !default;
+$small: 12 !default;
+$smaller: 14 !default;
+$normal: 16 !default;
+$larger: 18 !default;
+$large: 24 !default;
+$huge: 32 !default;
+$gigantic: 48 !default;
+
+/* Fonts */
+
+$sans: Arial, 'Helvetica Neue', Helvetica, sans-serif !default;
+$code: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+
+/* Misc */
+
+$ease: 0.3s;
+
+$gutter: 20px !default;
+$radius: 2px !default;
+
+$shadow: rgba(0, 0, 0, 0.1) 0 1px 0 0 !default;
+
+$tablet: 641px !default;
+$desktop: 1025px !default;
+$highres: 1281px !default;

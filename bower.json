@@ -1,0 +1,7 @@
+{
+    "name": "New America Weekly",
+    "version": "0.0.1",
+    "devDependencies": {
+        "jquery": "*"
+    }
+}

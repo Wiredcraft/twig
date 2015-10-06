@@ -1,0 +1,20 @@
+#header {
+  background: shade($purple, 5%);
+  color: tint($purple, 40%);
+  padding: $gutter/2 0;
+  text-align: left;
+  a {
+    border-bottom: 1px dotted tint($purple, 20%);
+    color: inherit;
+    @include transition-property(border, color);
+    @include transition-duration($ease);
+    &:hover {
+      border-color: tint($purple, 30%);
+      color: #FFF;
+      text-decoration: none;
+    }
+  }
+  .github {
+    float: right;
+  }
+}
