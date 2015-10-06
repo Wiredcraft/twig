@@ -4,4 +4,4 @@ While working on some of our products at [Wiredcraft](http://wiredcraft.com) (li
 
 We couldn't find anything that worked for us without a significant investment of time or money, or both. Also, we like drawing icons. So we built *twig*.
 
-We released it with an [MIT license](https://github.com/Wiredcraft/twig/blob/master/LICENSE.md) so feel free to [go over GitHub](https://github.com/Wiredcraft/twig) and contribute to it.
+We released it under an [MIT license](https://github.com/Wiredcraft/twig/blob/master/LICENSE.md) so feel free to [go over GitHub](https://github.com/Wiredcraft/twig) and contribute to it.
