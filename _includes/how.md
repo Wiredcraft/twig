@@ -25,5 +25,5 @@
           -webkit-font-smoothing: antialiased;
         }
 
-    Keep in mind that there are two fonts; `twig-16` and `twig-24` depending optimized for font-sizes of respectively 16px and 24px.
+    Keep in mind that there are two fonts; `twig-16` and `twig-24` optimized for font sizes of respectively 16px and 24px.
 1. We recommend you add icons to an element using the `content` property (e.g `content: '\e800'`), however you can also use HTML directly (e.g. `<span class='icon'>&#xe800;</span>`). The same code applies for any icon in either fonts, whether `twig-16` or `twig-24`.
