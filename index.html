@@ -10,7 +10,7 @@ class: front
     <header class='header'>
       <h1>{{ page.title }}</h1>
       <p>{{ page.excerpt }}</p>
-      <a href='https://github.com/Wiredcraft/twig/archive/v1.0.1.zip' class='button'>Download</a>
+      <a href='https://github.com/Wiredcraft/twig/archive/{{ site.release }}.zip' class='button'>Download {{ site.release }}</a>
     </header>
     <ul class='icons'>
       {% for icon in site.data.icons %}

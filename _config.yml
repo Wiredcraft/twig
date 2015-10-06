@@ -24,4 +24,5 @@ kramdown:
 permalink: pretty
 
 # Build id to force reload assets (CSS + JS)
-build: baton_rouge
+build: baton_bleu
+release: v1.0.2
