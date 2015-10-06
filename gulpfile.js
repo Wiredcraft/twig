@@ -15,9 +15,13 @@ var colors = gutil.colors;
 var assets = {
     'js': [
         "bower_components/jquery/dist/jquery.js",
+        "bower_components/highlightjs/highlight.pack.js",
         "_js/*.js"
     ],
-    'css': [ "_scss/**/*.{scss,sass}" ]
+    'css': [
+        "bower_components/highlightjs/styles/github.css",
+        "_scss/**/*.{scss,sass}"
+    ]
 };
 
 /**

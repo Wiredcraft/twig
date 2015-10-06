@@ -10,34 +10,44 @@ class: front
     <header class='header'>
       <h1>{{ page.title }}</h1>
       <p>{{ page.excerpt }}</p>
-      <button class='button'>Download</button>
+      <a href='https://github.com/Wiredcraft/twig/archive/v1.0.1.zip' class='button'>Download</a>
     </header>
     <ul class='icons'>
       {% for icon in site.data.icons %}
-      <li class='twig-24'>
-        &#x{{ icon.code }};
-        <span>
-          file: {{ icon.file }}.svg<br/>
-          code: \{{ icon.code }} (click to copy)
-        </span>
-      </li>
+      <li class='twig-24'>&#x{{ icon.code }}; <span>{{ icon.file }}</span></li>
       {% endfor %}
     </ul>
   </div>
 </section>
 
 <section class='section'>
-
-<section class='section'>
-  <h2>How to use it</h2>
-
-  <p></p>
-
-  <code></code>
+  <div class='wrapper'>
+    {% capture include %}{% include how.md %}{% endcapture %}
+    {{ include | markdownify }}
+    <table>
+      <thead>
+        <th>Icon</th>
+        <th>File</th>
+        <th>Code</th>
+        <th>HTML</th>
+      </thead>
+      <tbody>
+        {% for icon in site.data.icons %}
+        <tr>
+          <td class='twig-16'>&#x{{ icon.code }};</td>
+          <td>{{ icon.file }}.svg</td>
+          <td><code>\{{ icon.code }}</code></td>
+          <td><code>&amp;#x{{ icon.code }};</code></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 </section>
 
-
 <section class='section'>
-  {% capture include %}{% include why.md %}{% endcapture %}
-  {{ include | markdownify }}
+  <div class='wrapper'>
+    {% capture include %}{% include why.md %}{% endcapture %}
+    {{ include | markdownify }}
+  </div>
 </section>

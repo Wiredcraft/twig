@@ -1,6 +1,7 @@
 #header {
   background: shade($purple, 5%);
   color: tint($purple, 40%);
+  @include font-size($smaller);
   padding: $gutter/2 0;
   text-align: left;
   a {

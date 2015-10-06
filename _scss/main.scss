@@ -9,7 +9,16 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 $headline: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$width: 960px;
+$pico: 10;
+$micro: 11;
+$small: 12;
+$smaller: 14;
+$normal: 18;
+$larger: 24;
+$large: 32;
+$huge: 48;
+$gigantic: 64;
+$width: 720px;
 
 /* Normalize.css */
 
@@ -29,8 +38,9 @@ $width: 960px;
 /* Styles */
 
 @import 'default/_general';
+@import 'default/_code';
 @import 'default/_buttons';
-// @import 'default/_form';
+@import 'default/_table';
 
 /* Icons */
 
@@ -41,3 +51,4 @@ $width: 960px;
 
 @import 'partials/_header';
 @import 'partials/_content';
+@import 'partials/_footer';

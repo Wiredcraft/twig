@@ -1,9 +1,12 @@
-@mixin tooltip($position: top, $color: $black, $arrow: 5px) {
+@mixin tooltip($position: top, $color: $black, $light: false, $arrow: 5px) {
   position: relative;
   span {
     background: $color;
     border-radius: $radius;
-    color: #FFF;
+    box-shadow: $shadow;
+    @if $light == true {
+      color: #FFF;
+    }
     @include font-size($small);
     font-weight: 600;
     line-height: 140%;
@@ -28,7 +31,7 @@
       left: 50%;
       @include transform(translateX(-50%));
       &:after {
-        @include arrow(bottom);
+        @include arrow(bottom, $color);
       }
     }
     &:hover span {
@@ -41,7 +44,7 @@
       left: 50%;
       @include transform(translateX(-50%));
       &:after {
-        @include arrow(top);
+        @include arrow(top, $color);
       }
     }
     &:hover span {
@@ -54,7 +57,7 @@
       top: 50%;
       @include transform(translateY(-50%));
       &:after {
-        @include arrow(right);
+        @include arrow(right, $color);
       }
     }
     &:hover span {
@@ -67,7 +70,7 @@
       top: 50%;
       @include transform(translateY(-50%));
       &:after {
-        @include arrow(left);
+        @include arrow(left, $color);
       }
     }
     &:hover span {

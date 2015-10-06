@@ -8,8 +8,8 @@ $red: #FF5F5F !default;
 $purple: #8B66CB !default;
 $black: #333 !default;
 $line: #DDD !default;
-$grey: #CCC !default;
-$light: #EEE !default;
+$grey: #888 !default;
+$light: #EFEFEF !default;
 
 /* Sizes */
 
@@ -30,12 +30,12 @@ $code: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans 
 
 /* Misc */
 
-$ease: 0.3s;
+$ease: 0.2s !default;
 
 $gutter: 20px !default;
 $radius: 2px !default;
 
-$shadow: rgba(0, 0, 0, 0.1) 0 1px 0 0 !default;
+$shadow: rgba(0, 0, 0, 0.1) 0 1px 1px 0 !default;
 
 $tablet: 641px !default;
 $desktop: 1025px !default;

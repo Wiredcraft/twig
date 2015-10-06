@@ -11,15 +11,14 @@
       h1 {
         color: #FFF;
         @include font-size($gigantic);
-        // font-weight: normal;
       }
       p {
         color: tint($purple, 60%);
-        @include font-size($large);
+        @include font-size($larger);
       }
       .button {
         border-radius: 2*$gutter;
-        @include font-size($large);
+        @include font-size($larger);
         margin-top: 2*$gutter;
         padding: $gutter 1.5*$gutter;
       }
@@ -30,28 +29,42 @@
       margin: 0;
       padding: 0;
       li {
-        border-radius: $radius;
         @include box-sizing(border-box);
         color: rgba(255, 255, 255, 0.8);
         cursor: pointer;
         float: left;
-        padding: 2*$gutter;
-        width: 10%;
+        padding: 1.5*$gutter 0;
+        width: 12.5%;
         text-align: center;
-        @include tooltip;
-        @include transition-property(background, color);
+        @include tooltip(top, #FFF, true);
+        @include transition-property(color, font-size);
         @include transition-duration($ease);
         &:hover {
-          background: rgba(#FFF, 0.08);
           color: #FFF;
+          @include font-size($large);
+        }
+        span {
+          color: $black;
         }
       }
     }
   }
-    .twig-24 {
+  .twig-24 {
     @include font-size(24);
   }
   .twig-16 {
     @include font-size(16);
   }
+}
+
+.section {
+  padding: 2*$gutter 0;
+  h2 {
+    margin-bottom: 2*$gutter;
+    text-align: center;
+  }
+}
+
+table {
+  width: 100%;
 }
