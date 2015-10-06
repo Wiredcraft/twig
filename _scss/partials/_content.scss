@@ -34,11 +34,12 @@
         cursor: pointer;
         float: left;
         padding: 1.5*$gutter 0;
-        width: 12.5%;
         text-align: center;
         @include tooltip(top, #FFF, true);
         @include transition-property(color, font-size);
         @include transition-duration($ease);
+        width: 25%;
+        @include breakpoint(tablet) { width: 12.5%; }
         &:hover {
           color: #FFF;
           @include font-size($large);
@@ -50,10 +51,10 @@
     }
   }
   .twig-24 {
-    @include font-size(24);
+    font-size: 24px;
   }
   .twig-16 {
-    @include font-size(16);
+    font-size: 16px;
   }
 }
 

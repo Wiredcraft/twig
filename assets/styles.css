@@ -120,16 +120,17 @@ table tbody tr:last-child{border-bottom:1px solid #DDD}
 #content .hero .header .button{border-radius:40px;font-size:24px;font-size:2.4rem;margin-top:40px;padding:20px 30px}
 #content .hero ul{list-style:none;margin:0;padding:0}
 #content .hero ul:after{content:"";display:table;clear:both}
-#content .hero ul li{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;color:rgba(255,255,255,.8);cursor:pointer;float:left;padding:30px 0;width:12.5%;text-align:center;position:relative;-webkit-transition-property:color,font-size;-moz-transition-property:color,font-size;transition-property:color,font-size;-webkit-transition-duration:.2s;-moz-transition-duration:.2s;transition-duration:.2s}
+#content .hero ul li{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;color:rgba(255,255,255,.8);cursor:pointer;float:left;padding:30px 0;text-align:center;position:relative;-webkit-transition-property:color,font-size;-moz-transition-property:color,font-size;transition-property:color,font-size;-webkit-transition-duration:.2s;-moz-transition-duration:.2s;transition-duration:.2s;width:25%}
 #content .hero ul li span{background:#FFF;border-radius:2px;box-shadow:rgba(0,0,0,.1) 0 1px 1px 0;font-size:12px;font-size:1.2rem;font-weight:600;line-height:140%;opacity:0;padding:7.5px 15px;position:absolute;text-align:center;visibility:hidden;white-space:nowrap;width:auto;z-index:999}
 #content .hero ul li:hover span{opacity:1;-webkit-transition-property:opacity,margin;-moz-transition-property:opacity,margin;transition-property:opacity,margin;-webkit-transition-duration:.2s;-moz-transition-duration:.2s;transition-duration:.2s;visibility:visible}
 #content .hero ul li span{bottom:100%;left:50%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-o-transform:translateX(-50%);transform:translateX(-50%)}
 #content .hero ul li span:after{content:'';position:absolute;border-right:5px solid transparent;border-bottom-color:#FFF;border-top:5px solid #FFF;border-left:5px solid transparent;bottom:-5px;left:50%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-o-transform:translateX(-50%);transform:translateX(-50%)}
 #content .hero ul li:hover span{margin-bottom:8px}
+@media (min-width:641px){#content .hero ul li{width:12.5%}}
 #content .hero ul li:hover{color:#FFF;font-size:32px;font-size:3.2rem}
 #content .hero ul li span{color:#333}
-#content .twig-24{font-size:24px;font-size:2.4rem}
-#content .twig-16{font-size:16px;font-size:1.6rem}
+#content .twig-24{font-size:24px}
+#content .twig-16{font-size:16px}
 .section{padding:40px 0}
 .section h2{margin-bottom:40px;text-align:center}
 table{width:100%}
