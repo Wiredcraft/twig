@@ -3,8 +3,8 @@ title: "twig"
 email: "info@wiredcraft.com"
 description: "A simple lineart iconset by Wiredcraft"
 baseurl: ""
-url: "https://wiredcraft/twig"
-enforce_ssl: "wiredcraft/twig"
+url: "https://wiredcraft.com/twig"
+enforce_ssl: "wiredcraft.com/twig"
 keywords:
 - iconset
 - icons
@@ -23,4 +23,4 @@ kramdown:
 permalink: pretty
 
 # Build id to force reload assets (CSS + JS)
-build: baton
+build: baton_rouge
