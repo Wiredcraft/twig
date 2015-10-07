@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  {% if enforce_ssl %}{% include ssl.html %}{% endif %}
+  {% if site.enforce_ssl %}{% include ssl.html %}{% endif %}
 
   <link rel='canonical' href='{{ site.url }}{{ site.baseurl }}{{ page.url }}'/>
 
@@ -52,7 +52,7 @@
   <!-- <script src='//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js'></script> -->
   <script src='{{ site.url }}{{ site.baseurl }}/assets/scripts.js?{{ site.build }}' type='text/javascript'></script>
   <!--[if lt IE 9]><script src='https://html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
-  <!-- {% if site.gauges %}{% include gauges.html %}{% endif %}
-  {% if site.google_analytics %}{% include google_analytics.html %}{% endif %} -->
+  <!-- {% if site.gauges && site.gauges != '' %}{% include gauges.html %}{% endif %}
+  {% if site.google_analytics && site.google_analytics != '' %}{% include google_analytics.html %}{% endif %} -->
 </body>
 </html>
