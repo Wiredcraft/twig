@@ -4,7 +4,7 @@ email: "info@wiredcraft.com"
 description: "A simple lineart iconset by Wiredcraft"
 baseurl: ""
 url: "https://wiredcraft.com/twig"
-enforce_ssl: "wiredcraft.com/twig"
+enforce_ssl: "wiredcraft.com"
 keywords:
 - iconset
 - icons
