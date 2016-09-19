@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <title>Slice 1</title>
-    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="24-5" sketch:type="MSLayerGroup" fill="#000000">
-            <g id="Group" sketch:type="MSShapeGroup">
-                <path d="M256,0.026 C114.863,0.026 0.016,114.853 0.016,256.011 C0.016,397.148 114.864,511.974 256,511.974 C397.158,511.974 511.984,397.148 511.984,256.011 C511.984,114.853 397.158,0.026 256,0.026 L256,0.026 Z M256,481.871 C131.466,481.871 30.139,380.544 30.139,256.011 C30.139,131.455 131.466,30.128 256,30.128 C380.555,30.128 481.882,131.455 481.882,256.011 C481.882,380.544 380.555,481.871 256,481.871 L256,481.871 Z" id="Shape"></path>
-                <path d="M311.476,179.64 L256.417,234.699 L201.357,179.64 L180.067,200.931 L235.126,255.989 L180.067,311.069 L201.357,332.359 L256.417,277.28 L311.476,332.359 L332.766,311.069 L277.707,255.989 L332.766,200.931 L311.476,179.64 Z" id="Shape" transform="translate(256.567000, 256.140000) rotate(-45.000000) translate(-256.567000, -256.140000) "></path>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve">
+<g>
+	<path d="M48,0C21.5,0,0,21.5,0,48c0,26.5,21.5,48,48,48c26.5,0,48-21.5,48-48C96,21.5,74.5,0,48,0z M48,88C25.9,88,8,70.1,8,48
+		C8,25.9,25.9,8,48,8c22.1,0,40,17.9,40,40C88,70.1,70.1,88,48,88z"/>
+	<polygon points="52,24 44,24 44,44 24,44 24,52 44,52 44,72 52,72 52,52 72,52 72,44 52,44 	"/>
+</g>
 </svg>
